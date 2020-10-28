@@ -7,3 +7,12 @@ C:\Users\jun_q\source\repos\01_TELESECUNDARIA88Z\obj\Debug\01_TELESECUNDARIA88Z.
 C:\Users\jun_q\source\repos\01_TELESECUNDARIA88Z\obj\Debug\01_TELESECUNDARIA88Z.csproj.CoreCompileInputs.cache
 C:\Users\jun_q\source\repos\01_TELESECUNDARIA88Z\obj\Debug\01_TELESECUNDARIA88Z.exe
 C:\Users\jun_q\source\repos\01_TELESECUNDARIA88Z\obj\Debug\01_TELESECUNDARIA88Z.pdb
+C:\Telesecundaria\bin\Debug\01_TELESECUNDARIA88Z.exe.config
+C:\Telesecundaria\bin\Debug\01_TELESECUNDARIA88Z.exe
+C:\Telesecundaria\bin\Debug\01_TELESECUNDARIA88Z.pdb
+C:\Telesecundaria\obj\Debug\01_TELESECUNDARIA88Z.csprojAssemblyReference.cache
+C:\Telesecundaria\obj\Debug\_01_TELESECUNDARIA88Z.Properties.Resources.resources
+C:\Telesecundaria\obj\Debug\01_TELESECUNDARIA88Z.csproj.GenerateResource.cache
+C:\Telesecundaria\obj\Debug\01_TELESECUNDARIA88Z.csproj.CoreCompileInputs.cache
+C:\Telesecundaria\obj\Debug\01_TELESECUNDARIA88Z.exe
+C:\Telesecundaria\obj\Debug\01_TELESECUNDARIA88Z.pdb
