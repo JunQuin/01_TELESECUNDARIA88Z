@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01_TELESECUNDARIA88Z
+namespace _01_TELESECUNDARIA88Z.clases
 {
-    class _
+    class conexion
     {
+
     }
 }
