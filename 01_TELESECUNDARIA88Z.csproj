@@ -170,7 +170,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include=".gitignore" />
     <None Include="iconos\Exit%28png%2932x32.png" />
     <None Include="iconos\usuario.png" />
     <None Include="iconos\Archivos%28png%2948x48.png" />
