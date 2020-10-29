@@ -16,7 +16,7 @@ namespace _01_TELESECUNDARIA88Z
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new formas.login());
+            Application.Run(new formas.frmLogin());
         }
     }
 }
