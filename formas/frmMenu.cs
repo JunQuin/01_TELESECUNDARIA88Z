@@ -47,10 +47,6 @@ namespace _01_TELESECUNDARIA88Z.formas
         private ToolStripMenuItem listaProfesoresToolStripMenuItem;
         private ToolStripMenuItem controlAcademicoToolStripMenuItem;
         private ToolStripMenuItem listasDeGruposToolStripMenuItem;
-        private ToolStripMenuItem constaciasToolStripMenuItem;
-        private ToolStripMenuItem cobranzaToolStripMenuItem;
-        private ToolStripMenuItem emisionDeReciboToolStripMenuItem;
-        private ToolStripMenuItem reciboToolStripMenuItem;
 
 
         private void controlDeAlumnosToolStripMenuItem_Click(object sender, EventArgs e)
