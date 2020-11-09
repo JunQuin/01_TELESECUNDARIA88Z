@@ -189,5 +189,10 @@ namespace _01_TELESECUNDARIA88Z.formas
                 pboxUser.Image = bitmap;
             }
         }
+
+        private void pboxUser_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

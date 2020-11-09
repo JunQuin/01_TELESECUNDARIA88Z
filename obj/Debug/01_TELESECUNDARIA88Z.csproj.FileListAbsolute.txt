@@ -56,3 +56,5 @@ C:\Proyecto\obj\Debug\01_TELESECUNDARIA88Z.exe.manifest
 C:\Proyecto\obj\Debug\01_TELESECUNDARIA88Z.application
 C:\Proyecto\obj\Debug\_01_TELESECUNDARIA88Z.formas.frmLogin.resources
 C:\Proyecto\obj\Debug\_01_TELESECUNDARIA88Z.formas.frmMenu.resources
+C:\Telesecundaria\obj\Debug\_01_TELESECUNDARIA88Z.formas.frmLogin.resources
+C:\Telesecundaria\obj\Debug\_01_TELESECUNDARIA88Z.formas.frmMenu.resources
