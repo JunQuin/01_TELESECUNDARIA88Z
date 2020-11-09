@@ -124,17 +124,71 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clases\conexion.cs" />
+    <Compile Include="formas\frmAlumnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formas\frmAlumnos.Designer.cs">
+      <DependentUpon>frmAlumnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formas\frmCalificaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formas\frmCalificaciones.Designer.cs">
+      <DependentUpon>frmCalificaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formas\frmDatosEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formas\frmDatosEmpresa.Designer.cs">
+      <DependentUpon>frmDatosEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formas\frmGrupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formas\frmGrupo.Designer.cs">
+      <DependentUpon>frmGrupo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formas\frmGrupoDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formas\frmGrupoDetalle.Designer.cs">
+      <DependentUpon>frmGrupoDetalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formas\frmLocalidades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formas\frmLocalidades.Designer.cs">
+      <DependentUpon>frmLocalidades.cs</DependentUpon>
+    </Compile>
     <Compile Include="formas\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="formas\frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="formas\frmMaestros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formas\frmMaestros.Designer.cs">
+      <DependentUpon>frmMaestros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formas\frmMaterias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formas\frmMaterias.Designer.cs">
+      <DependentUpon>frmMaterias.cs</DependentUpon>
+    </Compile>
     <Compile Include="formas\frmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="formas\frmMenu.Designer.cs">
       <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formas\frmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formas\frmUsuarios.Designer.cs">
+      <DependentUpon>frmUsuarios.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
