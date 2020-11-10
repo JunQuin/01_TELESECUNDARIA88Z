@@ -56,7 +56,7 @@ namespace _01_TELESECUNDARIA88Z.formas
 
         private void cobranzaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Environment.Exit(0);
         }
 
         private ToolStripMenuItem profesoresToolStripMenuItem1;

@@ -122,7 +122,7 @@ namespace _01_TELESECUNDARIA88Z.formas
                     }
                     else
                     {
-                        MessageBox.Show("Usuario Invalido!","Usuario No Encontrado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        MessageBox.Show("Usuario Invalido!", "Usuario No Encontrado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         txtUser.Clear();
                         txtUser.Focus();
                     }
@@ -151,14 +151,14 @@ namespace _01_TELESECUNDARIA88Z.formas
                 lblCargando.Visible = false;
             }
             if (e.KeyChar == Convert.ToChar(Keys.Enter))
-            {                
+            {
                 if (string.IsNullOrEmpty(txtPassword.Text.Trim()))
                 {
                     MessageBox.Show("ESTE CAMPO NO PUEDE SER NULO!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     txtPassword.Clear();
                     txtPassword.Focus();
                 }
-                var source = txtPassword.Text;             
+                var source = txtPassword.Text;
                 using (var md5Hash = MD5.Create())
                 {
                     // Byte array representation of source string
@@ -199,7 +199,7 @@ namespace _01_TELESECUNDARIA88Z.formas
 
         private void btningresar_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if(e.KeyChar == Convert.ToChar(Keys.Escape))
+            if (e.KeyChar == Convert.ToChar(Keys.Escape))
             {
                 txtNivel.Clear();
                 txtPassword.Clear();
@@ -213,11 +213,6 @@ namespace _01_TELESECUNDARIA88Z.formas
                 var bitmap = new Bitmap(_01_TELESECUNDARIA88Z.Properties.Resources.usuario);
                 pboxUser.Image = bitmap;
             }
-        }
-
-        private void pboxUser_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

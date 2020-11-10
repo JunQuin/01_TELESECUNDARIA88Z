@@ -63,6 +63,16 @@ namespace _01_TELESECUNDARIA88Z.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap alumni {
+            get {
+                object obj = ResourceManager.GetObject("alumni", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Archivos_png_48x48 {
             get {
                 object obj = ResourceManager.GetObject("Archivos(png)48x48", resourceCulture);

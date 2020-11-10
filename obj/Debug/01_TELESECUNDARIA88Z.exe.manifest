@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="01_TELESECUNDARIA88Z.exe" version="0.1.22.1" publicKeyToken="0000000000000000" language="es-MX" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="01_TELESECUNDARIA88Z.exe" version="0.2.1.3" publicKeyToken="0000000000000000" language="es-MX" processorArchitecture="msil" type="win32" />
+  <description asmv2:publisher="SysNetCom" asmv2:product="Sistema Telesecundaria 88Z" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
     <assemblyIdentity name="01_TELESECUNDARIA88Z" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="01_TELESECUNDARIA88Z.exe" parameters="" />
   </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
   <trustInfo>
     <security>
       <applicationRequestMinimum>
@@ -42,14 +44,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="01_TELESECUNDARIA88Z.exe" size="119232">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="01_TELESECUNDARIA88Z.exe" size="607168">
       <assemblyIdentity name="01_TELESECUNDARIA88Z" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>XTtpT+MuDVEKvZDfK2UhPlwp/xfFmw9AKWNmnISk/R0=</dsig:DigestValue>
+        <dsig:DigestValue>YCI63LoeYnu8/JdMMzpbnFSjfcZheiPDFBzb+tWQgsA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -216,6 +218,231 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>F23w3PaSMVPnBLd+C+OcLFnl8UJUfT9Ah4QsQ+gj41Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\alumni.png" size="13605">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2qXaoxTagqDr/g3FeyrVe7G9ZGiriA8PtBnXxhJdhFo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\artesania.png" size="17432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>S3BvYSc72kNxxjsawOFYQRpV1iaoeocIL68qrog1SL8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\aula.png" size="24228">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h+DLQDCm95uy9r1cvYqJqZGmlFEJZmGPnEOGWewky8w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\Books(png)48x48.png" size="6369">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>f0MnypOmYkQh5ddK9Xk5BOKVTIbxCl0aKETMbehHpUo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\calendario.png" size="23895">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1Vd7PPW7C7gj8ImsCJNgEAhavcjYWRLc02ImolKH6eU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\calificaciones.png" size="14511">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cl8MykKlK3QMSUz1HdYDnFD7Zsxd6jtYOokItO2lK0w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\Catalog-icon.png" size="4058">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2mXbj02obxPlOtsmSx+A+AZWDNLWrUmoY92pgY5dZdY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\cerrar-sesion.png" size="7431">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>B9w1rRT5FhS/SvJVYU1K+nSBopmgj9Gyvl2fYt9c9bI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\Documents(png)32x32.jpg" size="1409">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZQ3N42ukrcrmj+/K37HWMhP6/9UuG2oL7fuPshH2BuU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\Double-J-Design-Ravenna-3d-Books.ico" size="203387">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+iYoRYyLFGC+AWFXE7q9L0dK/W0qzplwELfXX23bC4E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\Entidades(png)32x32.png" size="1943">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bL0TwmCmi9htv+F433ZmxYIAtcY/Tf36DMwmN3wWzgQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\exitdoor_87195.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>n5ri4bod1ZLbO4V5xADbMpF50g+UjD4ajVKPLD2CkTM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\folder_settings_tools_22597.png" size="17188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mAyGxeGQzFgBfRgHStKGLcYuIK0lieDE1XZJg6jadw8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\herramientas.png" size="11439">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>anZE51FLXFeV7gi4/EXffziguh/xN01UuDe2PGe506Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\informacion.png" size="26024">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ncurmuk6TLhBfABdRrWGAr3q8HO7kmd7KJzRHEyX1u8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\libro-de-tapa-negra-cerrado.png" size="3951">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UGmkzvXatgVxXH+4fB0Kn/Lt5aQqRulKtFFcOdeHhbI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\Llavez(png)48x48.png" size="3154">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yAR5D3WeMIttMzCmKjTIY/7FmzczORha5bFpdcpyUEQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\lugar.png" size="37128">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qRafzW0OsB90SQEkcRbBXiWN0UsrF4o7j2kxszi/gig=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\Modificar(png)32x32.png" size="2032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>r4mUmznqYR7iCpU0NgdAvLtbxLHYIsDUOfyo/KusLbE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\Money(png)48x48.png" size="3054">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lLUIz8LtSZCKJStuIQrvkCwKJd70AB9Ljq9KmOVje28=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\registro.png" size="14235">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HcEUrl7loleoA8TJuFvdolSSaCuV73nSYoosmOEKZl4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\Robinweatherall-Library-Books.ico" size="251700">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3SW9cc72C/Pu27u0Pnjc6RciMu0IgZvXIJPXDg9PfKQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\SaldosAcciones(png)48x48.png" size="3605">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oTUAZUyxaz00lFUc0MAQ2O9DcQceceuCLmqDKo5TZg8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\useravatar_87884.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XvKWpZ0EPzLSzroX7gYSRX3axgwJKh5nsvR1Zdba4Q4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iconos\usersavatar_87856.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>km/BnsU8XkdnZ8fTyY+alLtn3BEedkjFE/jyHYjCOXY=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
