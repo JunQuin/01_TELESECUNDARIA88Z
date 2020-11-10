@@ -21,6 +21,11 @@ namespace _01_TELESECUNDARIA88Z.formas
     {
         string sNivel;
         string sUserName;
+        string dtDateTimeA;
+        string dtDateTimeM;
+        string dtDateTimeD;
+        string dtDateTimeH;
+
         clases.conexion objConexion;
         MySqlConnection mySqlConex;
         public frmLogin()
@@ -34,6 +39,18 @@ namespace _01_TELESECUNDARIA88Z.formas
 
         private void btningresar_Click(object sender, EventArgs e)
         {
+            DateTime dateTime = DateTime.Now;
+            dateTime.ToString("yyyy-MM-dd H:mm:ss");
+            objConexion = new clases.conexion();
+            mySqlConex = new MySqlConnection(objConexion.conn());
+            mySqlConex.Open();
+            string mySqlQuery = "UPDATE usuarios SET us_fecha = @us_fecha WHERE usuarios.us_login = @us_login";
+            MySqlCommand mySqlCommand = new MySqlCommand(mySqlQuery, mySqlConex);
+            mySqlCommand.Parameters.Clear();
+            mySqlCommand.Parameters.AddWithValue("@us_fecha", dateTime);
+            mySqlCommand.Parameters.AddWithValue("@us_login", txtUser.Text);
+            mySqlCommand.ExecuteNonQuery();
+
             formas.frmMenu frmMenu = new frmMenu();
             frmMenu.Text = "TELESECUNDARIA#88Z ver. 0.1.23.1" + "       " + "USUARIO: " + sUserName + "       " + "NIVEL: " + txtNivel.Text;
             MessageBox.Show("Bienvenido al sistema: " + sUserName + " " + "Nivel: " + txtNivel.Text);
@@ -71,6 +88,12 @@ namespace _01_TELESECUNDARIA88Z.formas
                     {
                         sUserName = mySqlDataReader["us_nombre"].ToString();
                         sNivel = mySqlDataReader["us_nivel"].ToString();
+                        /*dtDateTime = Convert.ToDateTime(mySqlDataReader["us_fecha"]).ToString("dd/MM/yyyy/HHmmss");*/
+                        dtDateTimeA = Convert.ToDateTime(mySqlDataReader["us_fecha"]).ToString("yyyy");
+                        dtDateTimeM = Convert.ToDateTime(mySqlDataReader["us_fecha"]).ToString("MMMM");
+                        dtDateTimeD = Convert.ToDateTime(mySqlDataReader["us_fecha"]).ToString("dd");
+                        dtDateTimeH = Convert.ToDateTime(mySqlDataReader["us_fecha"]).ToString("h:mm:ss tt");
+
                         if (sNivel == "1")
                         {
                             txtNivel.Text = "Administrador";
@@ -79,6 +102,8 @@ namespace _01_TELESECUNDARIA88Z.formas
                         {
                             txtNivel.Text = "Operador";
                         }
+                        //dateTimePicker1.Value = Convert.ToDateTime(dtDateTime);
+                        txtDateTime.Text = dtDateTimeD + " de " + dtDateTimeM + " del " + dtDateTimeA + ", " + dtDateTimeH;
                         txtPassword.Enabled = true;
                         txtPassword.Focus();
                         txtUser.Enabled = false;
@@ -88,7 +113,6 @@ namespace _01_TELESECUNDARIA88Z.formas
                             MemoryStream memoryStream = new MemoryStream((byte[])mySqlDataReader["us_imagen"]);
                             Bitmap bitmap = new Bitmap(memoryStream);
                             pboxUser.Image = bitmap;
-
                         }
                         catch
                         {
@@ -111,7 +135,6 @@ namespace _01_TELESECUNDARIA88Z.formas
                 txtUser.Clear();
             }
         }
-
         private void txtPassword_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == Convert.ToChar(Keys.Escape))
@@ -119,6 +142,7 @@ namespace _01_TELESECUNDARIA88Z.formas
                 txtPassword.Clear();
                 txtUser.Clear();
                 txtNivel.Clear();
+                txtDateTime.Clear();
                 txtUser.Enabled = true;
                 txtPassword.Enabled = false;
                 var bitmap = new Bitmap(_01_TELESECUNDARIA88Z.Properties.Resources.usuario);
@@ -180,6 +204,7 @@ namespace _01_TELESECUNDARIA88Z.formas
                 txtNivel.Clear();
                 txtPassword.Clear();
                 txtUser.Clear();
+                txtDateTime.Clear();
                 txtPassword.Enabled = false;
                 btningresar.Enabled = false;
                 txtUser.Enabled = true;

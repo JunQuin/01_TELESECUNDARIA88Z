@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="01_TELESECUNDARIA88Z.exe" size="117184">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="01_TELESECUNDARIA88Z.exe" size="119232">
       <assemblyIdentity name="01_TELESECUNDARIA88Z" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>dG869a3419koLe/Eu+3WLDdpi37k6ngnEbbwAaGR1+U=</dsig:DigestValue>
+        <dsig:DigestValue>XTtpT+MuDVEKvZDfK2UhPlwp/xfFmw9AKWNmnISk/R0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -209,15 +209,6 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name=".gitignore" size="198">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>ksCK++9Quj9Hvem0NI8hVs9np+1DvVSXHdJlVlQ20kw=</dsig:DigestValue>
-    </hash>
-  </file>
   <file name="01_TELESECUNDARIA88Z.exe.config" size="778">
     <hash>
       <dsig:Transforms>
