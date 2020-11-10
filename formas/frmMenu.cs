@@ -22,5 +22,47 @@ namespace _01_TELESECUNDARIA88Z.formas
                 this.Close();
             }
         }
+
+        private void registroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void profesoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmMenu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private MenuStrip menuStrip123;
+        private ToolStripMenuItem controlDeAlumnosToolStripMenuItem;
+        private ToolStripMenuItem nuevoAlumnoToolStripMenuItem;
+        private ToolStripMenuItem alumnadoToolStripMenuItem;
+        private ToolStripMenuItem profesoresToolStripMenuItem;
+        private ToolStripMenuItem nuevoProfesorToolStripMenuItem;
+        private ToolStripMenuItem listaProfesoresToolStripMenuItem;
+        private ToolStripMenuItem controlAcademicoToolStripMenuItem;
+        private ToolStripMenuItem listasDeGruposToolStripMenuItem;
+
+
+        private void controlDeAlumnosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cobranzaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private ToolStripMenuItem profesoresToolStripMenuItem1;
+        private ToolStripMenuItem materiasToolStripMenuItem;
+        private ToolStripMenuItem horariosToolStripMenuItem;
+        private ToolStripMenuItem datosGeneralesToolStripMenuItem;
+        private ToolStripMenuItem datosGeneralesToolStripMenuItem1;
     }
 }
